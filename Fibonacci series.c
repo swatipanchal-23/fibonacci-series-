@@ -1,9 +1,3 @@
-echo "# fibonacci-series-" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git remote add origin https://github.com/swatipanchal-23/fibonacci-series-.git
-git push -u origin master
 #include <stdio.h>
 int main() {
     int i, n, t1=0, t2=1, nextTerm;
